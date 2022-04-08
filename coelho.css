@@ -1,0 +1,340 @@
+body {
+	font-family: 'Fredoka', sans-serif;
+}
+
+header{
+    background:url("abstrato2.jpeg");
+    padding: 15px 0;
+}
+
+.logo{
+    width: 13%;
+    margin-left: 430px;
+}
+
+h2{
+    position: absolute;
+    top: 40px;
+    margin-left: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.studio{
+    position: absolute;
+    top: 90px;
+    margin-left:300px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.redes{
+    position: absolute;
+    margin-left: 1800px;
+    top: 130px;
+}
+
+.redes2{
+    position: absolute;
+    margin-left: 1600px;
+    top: 125px;
+}
+
+.instagram{
+    width: 30px;
+    padding-right: 10px;
+}
+
+.instagram:hover{
+    transform: scale(1.4);
+    transition: 1s all;
+}
+
+.whatsapp{
+    width: 30px;
+}
+
+.whatsapp:hover{
+    transform: scale(1.4);
+    transition: 1s all;
+}
+
+nav{
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 15px 0 0 ;
+}
+
+.trabalhos{
+    margin-right:300px;
+}
+
+nav a{
+    text-transform:uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.titulo-principal{
+    text-align: center;
+	font-size:50px;
+	clear: left;
+    padding: 30px 0 10px;
+    font-weight: bold;
+    color: #000000;
+}
+main{
+    background:linear-gradient(#ffffff, rgb(124, 118, 118));
+}
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.principal p {
+	margin: 1em 0 1em;
+    text-align: center;
+    font-size: 2em;
+    font-style: italic;
+    color: #000000;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.ambiente{
+    width: 450px;
+    margin-left: 400px;
+    opacity: 1;
+	transition: 400ms;
+    box-shadow: 15px 15px 10px #000000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.ambiente2{
+    width: 600px;
+    margin: 0 0 0 2em;
+    opacity: 1;
+	transition: 400ms;
+    box-shadow: 15px 15px 10px #000000;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.ambiente:hover,.ambiente2:hover{
+    opacity: 0.3;
+}
+
+.conteudo{
+    padding: 1em 0 1em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+    
+.lista-conteudo {
+    font-size: 25px;
+    margin: 5px 0 0 5em;
+    display: inline-block;
+    vertical-align: top;
+    color: #000000;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "🐰";
+}
+
+.servicos-imagem{
+    width: 30%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px black;
+    margin: 10px 0 0 40px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.servicos-imagem:hover{
+    opacity: 0.3;
+}
+
+.contato-form{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.redes-sociais{
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+}
+
+form {
+	margin: 40px 0;
+    text-align: center;
+    color: #000000;
+}
+
+form label {
+    display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width:20%;
+    margin-left: 550px;
+    display: block;
+	padding: 15px 0;
+	background: rgb(0, 0, 0);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 20px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: aqua;
+	transform: scale(1.2);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 0 10px ;
+}
+
+.logofooter{
+    width: 15%;
+    padding: 1em 0;
+}
+
+footer {
+	text-align: center;
+	background:url("abstrato2.jpeg");
+}
+
+.copyright,.contato{
+    color: #FEFEFE;
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+/* Pagina "trabalhos" */
+
+.background{
+    background:linear-gradient(#ffffff, rgb(124, 118, 118));
+}
+
+.video{
+    width: 940px;
+    margin: 2em auto;
+}
+
+.video-callmaria, .video-zambonii{
+    width: 940px;
+    margin: 2em auto;
+}
+
+.video-graves{
+    width: 940px;
+    margin:2em auto;
+}
+
+/* Codigo Responsivo */
+
+@media screen and (max-width: 600px){
+    .principal, .lista-conteudo,.contato-form, .conteudo{
+        width:auto;
+    }
+
+    h2, .studio{
+        margin: 0 1em;
+    }
+
+    .logo{
+        width: 60%;
+        margin: 5px 0 0 180px;
+    }
+
+    nav{
+        position: static;
+    }
+
+    .lista{
+        margin: 1em 1em 1em 3em;
+    }
+
+    .redes{
+        position: absolute;
+        margin: 80px 0 0 300px;
+    }
+
+    .redes2{
+        position: absolute;
+        margin: 80px 0 0 300px;
+    }
+
+    .servicos-imagem, .ambiente,.ambiente2{
+        width: 90%;
+        margin: 1em 1em;
+    }
+
+    h1, .titulo-principal{
+        text-align: center;
+        font-size: 40px;
+    }
+
+   
+    .redes-sociais{
+        margin: 0 1em;
+    }
+
+    .enviar{
+        margin: auto;
+    }
+
+    .mapa-conteudo{
+        width: 90%;
+    }
+
+    .video, .video-callmaria, .video-graves,.video-zambonii{
+        width: 90%;
+    }
+}
+
